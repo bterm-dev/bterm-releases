@@ -2,8 +2,14 @@
 
 Pre-built binaries for [bterm](https://bterm.dev) — the remote-controlled terminal.
 
-This repository only hosts **release artifacts** (no source). Grab the latest
-from the [Releases](https://github.com/bterm-dev/bterm-releases/releases) page.
+> ⚠️ **bterm is proprietary, closed-source software.**
+> This repository hosts only the compiled **release artifacts** — it contains
+> **no source code**. The "Source code (zip)" / "Source code (tar.gz)" archives
+> that GitHub automatically attaches to every release are generated from this
+> repository and contain only this README — **not** bterm's source.
+
+Grab the latest build from the
+[Releases](https://github.com/bterm-dev/bterm-releases/releases) page.
 
 ## Install
 
@@ -29,3 +35,13 @@ bterm daemon                                  # start the terminal daemon
 ```
 
 Then manage your terminals from anywhere at [app.bterm.dev](https://app.bterm.dev).
+
+## License
+
+© 2026 bterm. All rights reserved.
+
+bterm is proprietary software. The binaries distributed here are licensed for
+use under the [bterm Terms of Service](https://bterm.dev/terms). No source code
+is provided or implied, and no rights to copy, modify, decompile,
+reverse-engineer or redistribute are granted except as expressly permitted by
+the Terms or by applicable law.
